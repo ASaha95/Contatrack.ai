@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Contavision2$Contavision_Web_2">
+        <methods>
+          <include name="NegativeloginUsernameBlank"/>
+          <include name="generateBrowser"/>
+        </methods>
+      </class> <!-- Contavision2$Contavision_Web_2 -->
+      <class name="Contavision2">
+        <methods>
+          <include name="NegativeloginPasswordBlank"/>
+          <include name="Positivelogin"/>
+          <include name="AttendanceSheetExportCSV"/>
+          <include name="Roi"/>
+          <include name="SwitchMode"/>
+        </methods>
+      </class> <!-- Contavision2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
