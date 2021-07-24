@@ -3,21 +3,28 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Contavision2$Contavision_Web_2">
+      <class name="Cloudvision.Vision_C">
         <methods>
-          <include name="NegativeloginUsernameBlank"/>
+          <include name="AddCamera"/>
+          <include name="ScroolDownToUP"/>
+          <include name="WrongUsername"/>
+          <include name="BIReportIFrame"/>
+          <include name="Login"/>
+          <include name="ClickOnSubmitButton"/>
+          <include name="AddCameraDuplicateEntery"/>
+          <include name="computervision"/>
+          <include name="ClickOnSubmitButton1"/>
+          <include name="WrongPassword"/>
+          <include name="GeoFencingEnable"/>
           <include name="generateBrowser"/>
+          <include name="GeoFencingDisable"/>
+          <include name="AddEmployee"/>
+          <include name="DistanceandTimeMetrickandIFrameClear"/>
+          <include name="EmployeeDirectory"/>
+          <include name="EmaildDuplicateEntry"/>
+          <include name="EmployeeIDDuplicateEntry"/>
         </methods>
-      </class> <!-- Contavision2$Contavision_Web_2 -->
-      <class name="Contavision2">
-        <methods>
-          <include name="NegativeloginPasswordBlank"/>
-          <include name="Positivelogin"/>
-          <include name="AttendanceSheetExportCSV"/>
-          <include name="Roi"/>
-          <include name="SwitchMode"/>
-        </methods>
-      </class> <!-- Contavision2 -->
+      </class> <!-- Cloudvision.Vision_C -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
